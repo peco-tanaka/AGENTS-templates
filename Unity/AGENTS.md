@@ -2,7 +2,7 @@
 
 ## プロジェクト概要
 
-Unity Essentials Pathwayの学習プロジェクト
+ここに概要を書く
 
 ## 技術スタック
 
@@ -11,15 +11,18 @@ Unity Essentials Pathwayの学習プロジェクト
 
 ## ファイル構成
 
-```txt
+```
 Assets/
-├── Scripts/       # C#スクリプト
-├── Prefabs/       # プレハブ
-├── Scenes/        # シーンファイル
-├── Materials/     # マテリアル
-├── Textures/      # テクスチャ
-├── Audio/         # 音声ファイル
-└── Animations/    # アニメーション
+  ├── ThirdParty/     # 外部アセット
+  └── Project/        # 自作アセット
+        ├── Scripts/       # C#スクリプト
+        ├── Prefabs/       # プレハブ
+        ├── Scenes/        # シーンファイル
+        ├── Materials/     # マテリアル
+        ├── Textures/      # テクスチャ
+        ├── Fonts/         # フォント
+        ├── Audio/         # 音声ファイル
+        └── Animations/    # アニメーション
 ```
 
 ## C#コーディング規約
